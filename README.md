@@ -19,6 +19,7 @@ Using [lazy.nvim](https://github.com/folke/lazy.nvim):
 ```lua
 {
   "msegoviadev/nvim-iterview",
+  version = "*",
   lazy = false,
   dependencies = { "nvim-telescope/telescope.nvim", "nvim-lua/plenary.nvim" },
   config = function()
