@@ -1,5 +1,9 @@
 # nvim-iterview
 
+![GitHub Release](https://img.shields.io/github/v/release/msegoviadev/nvim-iterview?style=for-the-badge&logo=github)
+![License](https://img.shields.io/github/license/msegoviadev/nvim-iterview?style=for-the-badge)
+![Neovim](https://img.shields.io/badge/Neovim-%3E%3D0.9-green?style=for-the-badge&logo=neovim)
+
 Snapshot-based iteration review plugin for Neovim. Take filesystem checkpoints before an AI (or anyone) modifies your code, then review exactly what changed per iteration, independent of git state.
 
 <video src="https://github.com/user-attachments/assets/06961bd6-305d-48a4-9bb8-97ef64d2257c" autoplay loop muted playsinline></video>
