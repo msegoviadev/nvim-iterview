@@ -209,6 +209,7 @@ function M.diff_picker(config, checkpoint_id, opts)
   }, {
     prompt_title = title,
     results_title = summary,
+    initial_mode = telescope_opts.initial_mode or "normal",
     finder = finders.new_table({
       results = changes,
       entry_maker = function(change)
@@ -332,6 +333,7 @@ function M.history_picker(config)
     },
   }, {
     prompt_title = "Iterview: Checkpoint History",
+    initial_mode = telescope_opts.initial_mode or "normal",
     finder = finders.new_table({
       results = checkpoints,
       entry_maker = function(cp)
